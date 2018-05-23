@@ -1,6 +1,6 @@
 import media
 import fresh_tomatoes
-# Create instances of the Movie class to hold information of my favourite movies
+# Create instances of the Movie class to hold information of favourite movies
 Twi_light = media.movie("Twilight",
                         "Twilight was directed by Catherine Hardwicke\
                         and written by Melissa Rosenberg.",
