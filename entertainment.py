@@ -1,5 +1,6 @@
 import media
 import fresh_tomatoes
+# Create instances of the Movie class to hold information of my favourite movies
 Twi_light = media.movie("Twilight",
                         "Twilight was directed by Catherine Hardwicke\
                         and written by Melissa Rosenberg.",
@@ -23,5 +24,7 @@ Breaking_dawn_1 = media.movie("Breakingdawn_1",
                                penning the script.",
                               "https://bit.ly/2rWCNn3",
                               "https://www.youtube.com/watch?v=PQNLfo-SOR4")
+# Add the instances to a list
 movies = [Twi_light, New_Moon, Ec_lipse, Breaking_dawn_1]
+# Generate a web page that displays the movies in the list
 fresh_tomatoes.open_movies_page(movies)
